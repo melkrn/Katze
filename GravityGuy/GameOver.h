@@ -17,7 +17,7 @@ class GameOver : public Game
 {
 private:
     Sprite * title = nullptr;       // tela de fim
-
+    Sprite* anim1 = nullptr;
     TileSet* pressEsc = nullptr;    // tileset da animação
     
     Animation* anim2 = nullptr;     // animação do menu
